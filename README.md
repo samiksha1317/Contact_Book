@@ -42,7 +42,4 @@ It’s beginner-friendly and demonstrates the use of **Python dictionaries, loop
 3. Use a **while loop** for continuous menu display  
 4. Perform actions based on user choice  
 
----
-
-## 📌 Output Example
 
