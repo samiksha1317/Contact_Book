@@ -1,32 +1,48 @@
+# 📒 Contact Book Application using Python
+
+This project is a simple **command-line Contact Book application** that allows users to add, view, search, update, and delete contacts interactively.  
+It’s beginner-friendly and demonstrates the use of **Python dictionaries, loops, conditionals, and functions**.
 
 ---
 
-## **Task 3 – Contact Book**
-### **GitHub Repository Description**
-> A Python Contact Book application with Tkinter GUI to store, search, update, and delete contacts. Includes double-click functionality for quick updates. Created during my internship at CODSOFT.
-
-### **README.md**
-```markdown
-# 📇 Contact Book
-
-A Python-based Contact Book with a Tkinter interface for managing personal or professional contacts easily.
-
 ## 🚀 Features
-- Add contacts with Name, Phone, Email, and Address
-- View all contacts
-- Search by name or phone number
-- Update contact details via double-click
-- Delete contacts
-- User-friendly interface
 
-## 🛠️ Technologies Used
-- **Python**
-- **Tkinter**
+- **👤 Add Contact** – Save a new contact with name, phone, and email  
+- **📜 View Contacts** – Display all saved contacts with numbering  
+- **🔍 Search Contact** – Find a contact by name  
+- **✏️ Update Contact** – Modify details of an existing contact  
+- **🗑️ Delete Contact** – Remove a contact by name  
+- **🚪 Exit Program** – Quit the application anytime  
 
-## 📷 Screenshot
-*(Add a screenshot here if possible)*
+---
 
-## 📌 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/contact-book.git
+## 🛠 Tech Stack
+- Python 3.x
+
+---
+
+## 📂 How It Works
+
+1. **Display Menu** with 6 options (Add, View, Search, Update, Delete, Exit)  
+2. **User Input** determines the action  
+3. **Contacts stored in a dictionary** with names as keys and phone/email as values  
+4. **Loop continues** until the user selects Exit  
+
+---
+
+## 📊 Workflow
+
+1. Initialize an empty dictionary `contacts`  
+2. Define functions for:
+   - `add_contact()`
+   - `view_contacts()`
+   - `search_contact()`
+   - `update_contact()`
+   - `delete_contact()`
+3. Use a **while loop** for continuous menu display  
+4. Perform actions based on user choice  
+
+---
+
+## 📌 Output Example
+
